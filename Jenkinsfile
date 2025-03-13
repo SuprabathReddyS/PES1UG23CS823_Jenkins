@@ -11,7 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing...'
-                sh 'cd main && ./hello_exec'
+                sh 'cd main && ./hello_hccc'
             }
         }
         stage('Deploy') {
